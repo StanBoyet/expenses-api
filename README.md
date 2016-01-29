@@ -34,10 +34,9 @@ api_v1_category_expenses GET    /api/v1/categories/:category_id/expenses(.:forma
                          DELETE /api/v1/categories/:id(.:format)                   api/v1/categories#destroy
 ````
 
-## Expense#create
+## Expense#create|#update
 
 It's an example, `user_id` & `category_id` are fictional.
-Add `:id` param to update.
 ````json
 {
   "expense": {
@@ -49,8 +48,7 @@ Add `:id` param to update.
 }
 ````
 
-## User#create
-Add `:id` param to update.
+## User#create|#update
 
 ````json
 {
@@ -60,8 +58,7 @@ Add `:id` param to update.
 }
 ````
 
-## Category#create
-Add `:id` param to update.
+## Category#create|#update
 
 ````json
 {
