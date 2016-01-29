@@ -1,5 +1,13 @@
 # Expenses API
 
+## Hosted version
+
+An hosted version is ready at http://expenses-api.herokuapp.com/.
+Visit the homepage to wake up the app, as it's a free-dyno. First request is gonna take ~30 seconds. After that, you'll be ready to go !
+
+You can host it locally as well.
+For demo datas, run `rake demo:populate`.
+
 ## Routes
 
 `Prefix` is just rails' name for its routes, you shouldn't be concerned by this. Neither by `Controller#Action`
