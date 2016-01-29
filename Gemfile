@@ -14,6 +14,7 @@ gem 'responders', '~> 2.0'
 gem 'ffaker'
 
 group :development, :test do
+  gem 'dotenv-rails'
   gem 'byebug'
   gem 'sqlite3'
 end
